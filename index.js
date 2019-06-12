@@ -2,7 +2,7 @@ var deliLine = [];
 
 function takeANumber(deliLine , personsName) {
        deliLine.push(personsName);
-       return `Welcome, ${personsName}. You are number ${deliLine.length} in line.`);
+       return `Welcome, ${personsName}. You are number ${deliLine.length} in line.`;
 }
 
 function nowServing(deliLine){
