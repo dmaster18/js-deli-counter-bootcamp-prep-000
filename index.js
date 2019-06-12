@@ -15,5 +15,6 @@ function nowServing(katzDeliLine){
     }
     delete katzDeliLine[0];
     
+    
    {
 }
