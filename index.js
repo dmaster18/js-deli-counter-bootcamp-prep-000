@@ -15,7 +15,7 @@ function nowServing(katzDeliLine){
     }
     else{
     delete katzDeliLine[0];
-    katzDeliLine[i] = katzDeliLine
+    katzDeliLine[i] = katzDeliLine[i-1];
     
     }
     
