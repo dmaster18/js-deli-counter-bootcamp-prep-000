@@ -1,5 +1,7 @@
 var katzDeliLine = [];
 
-function takeANumber(currentLine, personsName) {
-  return `Welcome, ${personsName}. You are number ${currentLine} in line.`
+function takeANumber(katzDeliLine , personsName) {
+  return `Welcome, ${katzDeliLine}. You are number ${currentLine} in line.`
 }
+
+function nowServing(currentLine)
