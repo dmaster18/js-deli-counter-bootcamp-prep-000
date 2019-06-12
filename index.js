@@ -2,7 +2,7 @@ var katzDeliLine = [];
 
 function takeANumber(katzDeliLine , personsName) {
   for (var i = 0; i < katzDeliLine.length; i++){
-     `Welcome, ${personsName}. You are number ${i+1} in line.`
+     katzDeliLine{`Welcome, ${personsName}. You are number ${i+1} in line.`
   }
 }
 
