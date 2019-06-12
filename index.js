@@ -4,26 +4,26 @@ function takeANumber(deliLine , personsName) {
        deliLine.push(`Welcome, ${personsName}. You are number ${deliLine.length} in line.`);
 }
 
-function nowServing(katzDeliLine){
-    if(katzDeliLine.length===0) {
+function nowServing(deliLine){
+    if(deliLine.length===0) {
       return "There is nobody waiting to be served!";
     }
     else{
-      return `Currently serving ${katzDeliLine.shift()}`;
+      return `Currently serving ${deliLine.shift()}`;
     }
 }
 
-function currentLine(katzDeliLine) {
-  if(katzDeliLine.length===0)
+function currentLine(deliLine) {
+  if(deliLine.length===0)
   {
     return "The line is currently empty";
   }
   else{
     var lineOut = "The line is currently: ";
-    for (var i=0; i < katzDeliLine.length; i++){
-    lineOut+=String(i+1) + ". " +katzDeliLine[i]+" , ";
+    for (var i=0; i < deliLine.length; i++){
+    lineOut+=String(i+1) + ". " +deliLine[i]+" , ";
     }
-    returnlineOut.slice(0,lineOut.length - 2);
+    return lineOut.slice(0,lineOut.length - 2);
   }
 }
   
