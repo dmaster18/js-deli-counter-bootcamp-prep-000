@@ -23,4 +23,5 @@ function currentLine(katzDeliLine) {
     for (var i=0; i < katzDeliLine.length; i++){
     lineOut+=String(i+1) + ". " +katzDeliLine[i]+" , ";
     }
+    returnlineOut.slice(0,lineOut.length - 2)
     
