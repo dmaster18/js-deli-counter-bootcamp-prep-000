@@ -8,5 +8,7 @@ function nowServing(katzDeliLine){
     if(katzDeliLine===0) {
       
     }
-    
+    else{
+      
+    }
     
