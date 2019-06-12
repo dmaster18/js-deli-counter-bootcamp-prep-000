@@ -22,7 +22,7 @@ function currentLine(deliLine) {
   else{
     var lineOut = "The line is currently: ";
     for (var i=0; i < deliLine.length; i++){
-    lineOut+=String(i+1) + ". " +deliLine[i]+" , ";
+    lineOut+=String(i+1) + ". " +deliLine[i]+", ";
     }
     return lineOut.slice(0,lineOut.length - 2);
   }
