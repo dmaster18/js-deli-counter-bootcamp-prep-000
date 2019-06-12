@@ -11,8 +11,9 @@ function nowServing(katzDeliLine){
   {
     if(i===0)
     {
-    return katzDeliLine[i];
+    return katzDeliLine[0];
     }
+    
     
    {
 }
