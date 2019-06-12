@@ -9,6 +9,7 @@ function takeANumber(katzDeliLine , personsName) {
 function nowServing(katzDeliLine){
   for (var i = 0; i <katzDeliLine.length; i++)
   {
+    if()
     return katzDeliLine[i];
   }
 }
