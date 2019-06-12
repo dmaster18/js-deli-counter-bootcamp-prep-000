@@ -1,7 +1,8 @@
 var deliLine = [];
 
 function takeANumber(deliLine , personsName) {
-       deliLine.push(`Welcome, ${personsName}. You are number ${deliLine.length} in line.`);
+       deliLine.push(personsName);
+       (`Welcome, ${personsName}. You are number ${deliLine.length} in line.`);
 }
 
 function nowServing(deliLine){
