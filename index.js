@@ -7,6 +7,7 @@ function takeANumber(katzDeliLine , personsName) {
 }
 
 function nowServing(katzDeliLine){
+  var i =
   while ()
   {
     if(i===0)
