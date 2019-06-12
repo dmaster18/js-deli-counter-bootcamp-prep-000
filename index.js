@@ -25,4 +25,5 @@ function currentLine(katzDeliLine) {
     }
     returnlineOut.slice(0,lineOut.length - 2);
   }
+}
   
