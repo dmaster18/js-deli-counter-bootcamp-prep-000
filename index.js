@@ -19,7 +19,7 @@ function currentLine(katzDeliLine) {
     return "The line is currently empty";
   }
   else{
-    
+  for (i=0; i < )  
   var announcement = `The line is currently: ${
   }
 }
