@@ -13,7 +13,7 @@ function nowServing(katzDeliLine){
     {
     return katzDeliLine[0];
     }
-    
+    delete katzDeliLine
     
    {
 }
