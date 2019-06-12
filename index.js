@@ -16,8 +16,5 @@ function nowServing(katzDeliLine){
     else{
     katzDeliLine.shift();
     katzDeliLine[i] = katzDeliLine[i-1];
-    
     }
-    
-   {
-}
+}}
