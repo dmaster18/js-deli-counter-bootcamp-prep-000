@@ -5,5 +5,8 @@ function takeANumber(katzDeliLine , personsName) {
 }
 
 function nowServing(katzDeliLine){
-    if(katzDeliLine===0)
+    if(katzDeliLine===0) {
+      
+    }
+    
     
