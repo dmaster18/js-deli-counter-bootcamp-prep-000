@@ -14,5 +14,5 @@ function nowServing(katzDeliLine){
 }
 
 function currentLine(katzDeliLine) {
-  
+  return `The line is currently: 
 }
